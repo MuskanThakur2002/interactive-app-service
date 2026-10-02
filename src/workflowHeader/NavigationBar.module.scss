@@ -1,0 +1,48 @@
+.topNavigation {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 40px 100px;
+  justify-content: space-between;
+  padding: 8px 24px;
+}
+
+.circleGroup {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: start;
+  margin: auto 0;
+}
+
+.notificationBadge {
+  border-radius: 18px;
+  box-shadow: 0px 2px 0px rgba(250, 176, 33, 1);
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: rgba(255, 255, 255, 1);
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 1px;
+  justify-content: center;
+  margin: auto 0;
+  padding: 4px 12px 4px 18px;
+  font: 800 14px/1.4 Figtree, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.notificationCount {
+  align-self: stretch;
+  margin: auto 0;
+}
+
+.notificationIcon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 16px;
+  align-self: stretch;
+  margin: auto 0;
+}
